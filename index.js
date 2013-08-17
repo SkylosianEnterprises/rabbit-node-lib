@@ -11,7 +11,7 @@ function EventConnection ( config ) {
 
 module.exports = EventConnection;
 
-EventConnection.schemaMgr = function (config) {
+EventConnection.SchemaMgr = function (config) {
 	this.validate = function () { return true; }
 }
 
