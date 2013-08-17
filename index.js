@@ -4,7 +4,7 @@
  */
 
 var Q = require('q');
-var Emitter = require('lib/Emitter');
+var Emitter = require('./lib/Emitter');
 
 function EventConnection ( config ) {
 }
