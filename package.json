@@ -1,6 +1,6 @@
 { "name": "rabbit-node-lib" 
 , "description": "Manta rabbit lib"
-, "version": "0.0.1-9"
+, "version": "0.0.1-10"
 , "private": true
 , "main": "index.js"
 , "licenses": 
