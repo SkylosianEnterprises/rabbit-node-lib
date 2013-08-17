@@ -3,10 +3,10 @@
   "description": "Manta rabbitmq node library",
   "main": "index.js",
   "author": "Manta Media",
-  "version": "0.1.7-2",
+  "version": "0.1.7-3",
   "repository": {
     "type": "svn",
-    "url": "http://github/manta/rabbit-node-lib"
+    "url": "http://github/SkylosianEnterprises/rabbit-node-lib"
   },
   "bugs": {
     "url": "http://trac/trac/main/query?col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&keywords=~rabbit-node-lib&order=priority"
@@ -14,7 +14,7 @@
   "licenses": [
     {
       "type": "MANTA",
-      "url": "http://manta.com/dont/steal/our/stuff"
+      "url": "http://dogpawz.com/dont/steal/our/stuff"
     }
   ],
   "dependencies": {
@@ -26,8 +26,8 @@
   },
   "devDependencies": {
     "jasmine-node": "*",
-    "rrcf": "git+ssh://git@github.com:mantacode/rrcf.git",
-    "common-lib": "git+ssh://git@github.com/mantacode/nodejs-common-lib.git#merica",
+    "rrcf": "git+ssh://git@github.com:SkylosianEnterprises/rrcf.git",
+    "common-lib": "git+ssh://git@github.com/SkylosianEnterprises/nodejs-common-lib.git",
     "mongoose": "*"
   },
   "scripts": {

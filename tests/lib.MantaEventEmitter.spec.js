@@ -56,17 +56,17 @@ describe("the emitter" , function () {
 		it( "should encode without loss", function () {
 			expect(JSON.parse(skma.message( 'ClaimActivity', { "dog":"woof"  } ).encode())).toEqual( { dog:'woof' } );
 		} );
-		it( "should encode a full manta event", function () {
-			var mantaevent = tester.envelope( { payload: skma.message( 'ClaimActivity', { "dog":"woof"  } ), actor: { id: 'dog', type:'canine'} } )
-			var clone = JSON.parse(mantaevent.encode());
+		it( "should encode a full event", function () {
+			var masterevent = tester.envelope( { payload: skma.message( 'ClaimActivity', { "dog":"woof"  } ), actor: { id: 'dog', type:'canine'} } )
+			var clone = JSON.parse(masterevent.encode());
 			delete clone.process;
 			delete clone.uuid;
 			delete clone.eventTimestamp;
 			expect( clone ).toEqual( { context : 'nodejs Event Emitter library', hostname : os.hostname(), payload : '{"dog":"woof"}', actor : { id : 'dog', type : 'canine' }, sourceIdentity : { id : 'dog', type : 'canine' }, eventType : 'ClaimActivity', eventGroup : 'testgroup' }  );
 		} );
-		it( "should encode a full manta event automatically messagizing the payload", function () {
-			var mantaevent = tester.envelope( { eventType: 'ClaimActivity', payload: { "dog":"woof"  }, actor: { id: 'dog', type:'canine'} } )
-			var clone = JSON.parse(mantaevent.encode());
+		it( "should encode a full event automatically messagizing the payload", function () {
+			var masterevent = tester.envelope( { eventType: 'ClaimActivity', payload: { "dog":"woof"  }, actor: { id: 'dog', type:'canine'} } )
+			var clone = JSON.parse(masterevent.encode());
 			delete clone.process;
 			delete clone.uuid;
 			delete clone.eventTimestamp;
