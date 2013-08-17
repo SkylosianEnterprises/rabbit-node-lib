@@ -3,7 +3,7 @@
   "description": "Manta rabbitmq node library",
   "main": "index.js",
   "author": "Manta Media",
-  "version": "0.1.7-4",
+  "version": "0.1.7-5",
   "repository": {
     "type": "svn",
     "url": "http://github/SkylosianEnterprises/rabbit-node-lib"
