@@ -1,3 +1,8 @@
+/* 
+ *
+ *
+ */
+
 require('q');
 
 function EventConnection ( config ) {
