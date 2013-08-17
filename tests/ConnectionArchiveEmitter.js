@@ -11,8 +11,8 @@ var msm = new MSM(
 //	{ "schemaSchema": "/home/sbx/sbx.rabbitmq.current/schemata/JsonSchema.schema"
 //	, "schemaDirectories": [ "/home/sbx/sbx.rabbitmq.current/schemata" ]
 //	} );
-	{ "schemaSchema": "/home/dihnen/RabbitMQ/schemata/JsonSchema.schema"
-	, "schemaDirectories": [ "/home/dihnen/RabbitMQ/schemata", "/home/dihnen/RabbitMQ/namespaceProblemAside" ]
+	{ "schemaSchema": "/home/skylos/RabbitMQ/schemata/JsonSchema.schema"
+	, "schemaDirectories": [ "/home/skylos/RabbitMQ/schemata", "/home/skylos/RabbitMQ/namespaceProblemAside" ]
 	}, function (err, schema) {
 		if (err) throw err;
 		schemaDefer.resolve(schema);
