@@ -14,8 +14,8 @@ describe( 'Receiver operation', function () {
 
 
 		new SchemaMgr(
-			{ "schemaSchema": "/home/skylos/rabbitmq-lib/schemata/JsonSchema.schema"
-			, "schemaDirectories": [ "/home/skylos/rabbitmq-lib/schemata" ]
+			{ "schemaSchema": "/home/david/rabbitmq-lib/schemata/JsonSchema.schema"
+			, "schemaDirectories": [ "/home/david/rabbitmq-lib/schemata" ]
 			},
 			function (err, schemaMgr) {
 
