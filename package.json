@@ -1,0 +1,25 @@
+{
+  "name": "manta-rabbit-node-lib'
+  "description": "Manta rabbit lib"
+  "version": "0.0.1-0",
+  "private": true,
+	"main": "index.js",
+  "licenses": [
+    {
+      "type": "MANTA",
+      "url": "http://manta.com/dont/steal/our/stuff"
+    }
+  ],
+  "dependencies":
+    { "amqp": "*"
+    , "async": "*"
+    , "q": "*"
+    },
+  "devDependencies":
+    { "jasmine-node": "*"
+    , "autotest": "*"
+    },
+  "scripts": {
+    "test": "jasmine-node tests"
+  }
+}
