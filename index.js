@@ -5,6 +5,7 @@
 
 var Q = require('q');
 var Emitter = require('./lib/Emitter');
+var Rabbit = require('./lib/Rabbit');
 
 function EventConnection ( config ) {
 }
@@ -16,4 +17,5 @@ EventConnection.SchemaMgr = function (config) {
 }
 
 EventConnection.Emitter = Emitter;
+EventConnection.Rabbit = Emitter;
 
